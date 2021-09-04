@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+a:hover{
+    text-decoration: none;
+}
+
+h1{
+    color: #fff;
+}
+header{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    z-index: 20;
+
+}
+.rgb{
+        background:linear-gradient(rgba(0, 0, 0, 0), hsla(231, 91%, 25%, 0.7));
+        z-index: 9;
+        padding-bottom: 280px;
+
+}
+.large{
+    padding-bottom: 100px;
+
+}
+.top-bar{
+    position: relative;
+}
+.bar{
+    color: #fff;
+    font-size: 30px;
+    display: none;
+}
+.uk-navbar{
+    padding-top: 20px;
+}
+.uk-navbar-nav li a{
+    color: #fff;
+}
+.uk-navbar-nav li a:hover{
+    color: #fe9400;
+}
+.button{
+    background-color: #fe9400;
+    color: #000;
+    border: 2px solid orange;
+}
+.button:hover{
+    background-color: rgba(0, 0, 0, .2);
+    border: 2px solid #fe9400;
+}
+/* mobile nav */
+.mobile-nav{
+    background-color: #e5e5e5;
+    right: 0;
+    top: 60px;
+    position: absolute;
+    display: none;
+    z-index: 99;
+    
+}
+
+.mobile-nav ul{
+    margin: 0;
+    padding: 0;
+}
+li.mobile-parent{
+    text-align: center;
+}
+.mobile-nav li{
+    list-style: none;
+    padding: 10px 50px;
+    
+    
+}
+.mobile-nav li:hover{
+    background-color: #ee8a01;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.head{
+    text-align:right;
+    padding-top: 150px;
+
+}
+
+.uk-panel b{
+    color: #fff;
+}
+.meet{
+    padding: 10px 40px;
+    background-color: #fe9400 ;
+    font-size: 18px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.meet:hover{
+    background-color: orange;
+}
+.meet a{
+    color: #000;
+}
+.middle{
+    background-color: rgb(2, 2, 70);
+
+
+
+
+}
+
+.main-top{
+
+    z-index: 7;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 250px;
+    padding: 0;
+
+
+}
+
+.top-left{
+    background-color: white;
+    padding: 50px 0;
+
+}
+.top-right{
+    background-color:#ee8a01;
+    color: #fff;
+    padding: 50px 0;
+
+}
+.row{
+    padding: 0;
+    z-index: 7;
+    margin: 0;
+    padding: 0;
+}
+.pro{
+    color: blue;
+    font-weight: bold;
+}
+.und{
+    padding:60px 80px;
+
+}
+.whi{
+    width: 8%;
+    height: 3px;
+    background-color: #e5e5e5;
+     border: transparent;
+
+}
+.work{
+    font-weight: bold;
+    color: #000;
+}
+.exp{
+    list-style-type:square;
+
+}
+.button1{
+    padding: 30px 15px;
+}
+.button1 a:hover{
+    background-color: orange;
+}
+.button1 a{
+    background-color: #fe9400;
+    color: #000;
+    padding: 15px 50px;
+
+}
+.head-left{
+    color: #fff;
+    font-weight: bold;
+    font-size: 35px;
+}
+.org{
+    width: 8%;
+    height: 3px;
+    background-color: #f4c57f;
+     border: transparent;
+
+}
+
+.work1{
+    font-weight: bold;
+    color: #fff;
+    font-size: 35px;
+}
+.work2{
+    font-weight: bold;
+    color: #000;
+    font-size: 45px;
+}
+.middle1{
+    padding-top: 100px;
+
+
+}
+.cen h3{
+    color: #fff;
+    letter-spacing: 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.drk{
+        width: 5%;
+    height: 3px;
+    background-color: #554d7b;
+    border: transparent;
+}
+.step{
+    color: #ffff;
+    font-weight: bold;
+    font-size: 46px;
+    padding-bottom: 30px;
+}
+.c1{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+
+}
+.disc{
+    font-weight: bold;
+    color: #fff;
+line-height: 35px;}
+.orange{
+    background-color: orange;
+    height: 3px;
+    width:10%;
+    border: none;
+}
+.cen{
+    color: #fff;
+
+}
+.cen p{
+    font-size: 20px;
+    letter-spacing: 0;
+}
+.cen h2{
+      font-size: 35px;
+}
+.pad{
+    padding-top: 50px;
+}
+.team-box{
+    background-color: #fff;
+
+}
+.team{
+    color: blue;
+    font-weight: bold;
+}
+.team-head{
+    font-weight: bold;
+    color: black;
+}
+.team-body{
+    color: #000;
+    font-size: 18px;
+}
+.team-body a{
+    color: orange;
+}
+.und1{
+    padding:80px 80px;
+
+}
+.cilents-say{
+    padding-top: 150px;
+    width: 85%;
+    margin: auto;
+    color: #fff;
+}
+.cilents-say h3{
+    color: #fff;
+}
+.cilents-say h1{
+    font-weight: bold;
+    color: #fff;
+}
+.box-bor{
+    border-style: solid;
+    border-width: 0px 0px 0px 3px;
+    border-color: #ff9400;
+    border-radius: 0.3s, box-shadow 0.3s;
+    padding: 50px 100px 20px 100px;
+    background-color: rgba(255,255,255,0.1);
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.ten{
+    line-height: 0p;
+    font-size: 16px;
+    line-height: 18px;
+}
+.button2{
+    display: table;
+    margin:0px auto;
+    margin-top: 60px;
+    background-color: #fe9400 ;
+    padding: 10px 50px;
+}
+
+.button2 a{
+    color: black;
+}
+.button2:hover{
+    background-color: orange;
+}
+.bottom .top{
+    background-image: url(../img/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 20;
+    background-attachment: fixed;
+}
+.rgba{
+        background:linear-gradient(hsla(231, 91%, 25%, 0.7), rgba(0, 0, 0, 0) );
+        z-index: 9;
+        padding-bottom: 280px;
+}
+.colam{
+    width: 80%;
+    margin: auto;
+    padding-top: 200px;
+}
+.colam h3{
+    color: #fff;
+}
+.btm{
+     width: 3%;
+    height: 3px;
+    background-color: hsla(230, 60%, 50%, 0.514);
+    border: transparent;
+}
+.help{
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.bottom .bttom1{
+    background-image: url(../img/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    z-index: 20;
+    background-attachment: fixed;
+
+}
+
+.btm-cen{
+
+    text-align: center;
+    padding-top: 300px;
+}
+.btn-contant{
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+
+}
+footer p{
+    font-size: 18px;
+    letter-spacing: -1px;
+}
+.social{
+
+    height: 37px;
+    width: 37px;
+    border-radius: 50%;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    line-height: 34px;
+}
+.facebook{
+    background-color: #fff;
+    color:  rgb(57, 57, 136);
+    border: 2px solid #fff;
+}
+
+.facebook:hover{
+    background-color: rgb(57, 57, 136);
+    border: transparent;
+    color: #fff;
+
+}
+.insta{
+    background-color: rgb(219, 81, 81);
+    border: 2px solid rgb(219, 81, 81);
+
+
+}
+.insta:hover{
+    background-color: #fff;
+    color:  rgb(219, 81, 81);
+    border: transparent;
+
+}
+
+/* responsive */
+
+@media (max-width: 800px){
+    .pc-nav{
+        display: none !important;
+    }
+    .bar{
+        display: inline-block;
+    }
+    .uk-panel.head {
+        text-align: center;
+    }
+}
+@media (max-width: 470px){
+    .und {
+        padding: 60px 35px;
+    }
+    .und1 {
+        padding: 60px 35px;
+    }
+    .box-bor {
+        padding: 60px 35px;
+    }
+    .colam {
+        text-align: center;
+    }
+    .cen {
+        padding: 10px 40px;
+    }
+}
